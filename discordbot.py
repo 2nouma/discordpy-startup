@@ -45,4 +45,5 @@ async def on_raw_reaction_add(payload):
     # リアクションを付けたメンバーに役職を付与
     await member.add_roles(role1)
     
+    
 client.run(token)
